@@ -1,0 +1,96 @@
+header {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headerLogo {
+  margin-left: 50px;
+}
+header .headerOptions {
+  margin-right: 50px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home .greetings {
+  height: auto;
+  width: 100%;
+  margin: -20px 10px 0 10px;
+}
+.home .greetings .words {
+  display: grid;
+  flex-direction: column;
+  font-size: 2rem;
+  height: auto;
+  font-family: "Quicksand";
+  justify-items: center;
+  text-align: center;
+}
+.home .greetings .greetingsImg {
+  height: 250px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.home #skills {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.home #skills .skill {
+  width: auto;
+  height: 30px;
+  box-shadow: 3px 3px 5px black;
+  padding: 4px;
+  display: grid;
+  border-radius: 5px;
+  place-items: center;
+}
+
+#about {
+  height: 200px;
+  background-color: black;
+  width: 100%;
+  color: white;
+  font-family: "Quicksand";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+#about h2 {
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+#about span {
+  width: auto;
+  height: 30px;
+  box-shadow: 3px 3px 5px white;
+  padding: 4px;
+  display: grid;
+  border-radius: 5px;
+  place-items: center;
+}
+
+.projects {
+  padding: 10px 5px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.projects .project {
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+}/*# sourceMappingURL=main.css.map */
