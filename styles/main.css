@@ -1,3 +1,9 @@
+body {
+  font-family: "quicksand";
+  margin: 0;
+  padding: 0;
+}
+
 header {
   height: 75px;
   display: flex;
@@ -83,14 +89,36 @@ header .headerOptions {
   place-items: center;
 }
 
-.projects {
+#projects {
   padding: 10px 5px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 320px;
+}
+
+.projects {
+  padding: 10px;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
 .projects .project {
+  width: 320px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 50px;
+}
+.projects .project img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.projects .project .projTitle {
+  display: grid;
+  place-items: center;
   width: 100%;
-  height: 200px;
-  border: 1px solid black;
 }/*# sourceMappingURL=main.css.map */
