@@ -1,7 +1,15 @@
+
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
 body {
   font-family: "quicksand";
   margin: 0;
   padding: 0;
+  // background-color: ;
 }
 header {
   height: 75px;
