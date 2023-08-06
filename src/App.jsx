@@ -22,8 +22,9 @@ function App() {
     <div className="App">
       <header>
         <div className="headerLogo">r.dm</div>
-        <div className="headerOptions">
+        <div className="headerOptions d-flex gap-1">
           <a href="#projects">Projects</a>
+          <a href="#contactme">Contact Me</a>
         </div>
       </header>
       <main>
@@ -174,6 +175,16 @@ function App() {
                 </div>
               </div>
             </div>
+          </div>
+          <div id="contactme" className="bg-black w-100 text-white py-3">
+            <h3 className="contact-me-header ">Contact Me</h3>
+            Email:{" "}
+            <a
+              href="emailto:rrey.dm@gmail.com"
+              className="text-decoration-none text-white curser-pointer"
+            >
+              Rrey.dm@gmail.com
+            </a>
           </div>
         </div>
       </main>
