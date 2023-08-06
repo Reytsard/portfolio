@@ -16,6 +16,8 @@ import Image13 from "./images/SASS.png";
 import Image14 from "./images/next-js.png";
 import Image15 from "./images/Bootstrap.png";
 import Image16 from "./images/online-shop.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHand } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
@@ -23,18 +25,34 @@ function App() {
       <header>
         <div className="headerLogo">r.dm</div>
         <div className="headerOptions d-flex gap-1">
-          <a href="#projects">Projects</a>
-          <a href="#contactme">Contact Me</a>
+          <a href="#projects" className="text-primary text-decoration-none">
+            Projects
+          </a>
+          <a href="#about" className="text-primary text-decoration-none">
+            About
+          </a>
+          <a href="#contactme" className="text-primary text-decoration-none">
+            Contact Me
+          </a>
         </div>
       </header>
       <main>
         <div className="home">
-          <div className="greetings">
-            <div className="greetingsImg">
-              <img src={Image1} alt="Person in a suit" height="200px" />
+          <div className="greetings d-flex flex-wrap gap-4 justify-content-center align-items-center">
+            <div>
+              <img
+                className="greetingsImg rounded-circle shadow-lg"
+                src={Image1}
+                alt="Person in a suit"
+                height="200px"
+              />
             </div>
             <div className="words">
-              <span>Hi! I am Ronald De Mesa</span>
+              <span>
+                Hi!{" "}
+                <FontAwesomeIcon icon={faHand} style={{ color: "#000000" }} />
+              </span>
+              <span>I am Ronald De Mesa</span>
               <span>Web Developer</span>
             </div>
           </div>

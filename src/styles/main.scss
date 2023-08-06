@@ -4,15 +4,16 @@ $prefix: "mo-";
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+* {
+  font-family: "handjet";
+}
 .skill-image {
   width: auto;
   height: 30px;
 }
 body {
-  font-family: "quicksand";
   margin: 0;
   padding: 0;
-  // background-color: ;
 }
 header {
   height: 75px;
@@ -32,6 +33,7 @@ header {
   align-items: center;
   flex-direction: column;
   .greetings {
+    font-family: sans-serif;
     height: auto;
     width: 100%;
     margin: -20px 10px 0 10px;
