@@ -7,6 +7,14 @@ import Image4 from "./images/proj3.png";
 import Image5 from "./images/proj4.png";
 import Image6 from "./images/proj5.png";
 import Image7 from "./images/proj6.png";
+import Image8 from "./images/HTML.png";
+import Image9 from "./images/CSS.png";
+import Image10 from "./images/JS.png";
+import Image11 from "./images/React.png";
+import Image12 from "./images/Redux.png";
+import Image13 from "./images/SASS.png";
+import Image14 from "./images/next-js.png";
+import Image15 from "./images/Bootstrap.png";
 
 function App() {
   return (
@@ -29,6 +37,30 @@ function App() {
             </div>
           </div>
           <div id="skills">
+            <div className="skillDiv">
+              <img className="skill-image" src={Image8} alt="html" />
+            </div>
+            <div className="skillDiv">
+              <img className="skill-image" src={Image9} alt="css" />
+            </div>
+            <div className="skillDiv">
+              <img className="skill-image" src={Image10} alt="js" />
+            </div>
+            <div className="skillDiv">
+              <img className="skill-image" src={Image11} alt="react" />
+            </div>
+            <div className="skillDiv">
+              <img className="skill-image" src={Image12} alt="sass" />
+            </div>
+            <div className="skillDiv">
+              <img className="skill-image" src={Image13} alt="Redux" />
+            </div>
+            <div className="skillDiv">
+              <img src={Image14} alt="nextjs" className="skill-image" />
+            </div>
+            <div className="skillDiv">
+              <img className="skill-image" src={Image15} alt="bootstrap" />
+            </div>
             <div className="skill">HTML</div>
             <div className="skill">CSS</div>
             <div className="skill">JavaScript</div>
