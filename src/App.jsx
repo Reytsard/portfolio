@@ -15,6 +15,7 @@ import Image12 from "./images/Redux.png";
 import Image13 from "./images/SASS.png";
 import Image14 from "./images/next-js.png";
 import Image15 from "./images/Bootstrap.png";
+import Image16 from "./images/online-shop.png";
 
 function App() {
   return (
@@ -61,16 +62,8 @@ function App() {
             <div className="skillDiv">
               <img className="skill-image" src={Image15} alt="bootstrap" />
             </div>
-            <div className="skill">HTML</div>
-            <div className="skill">CSS</div>
-            <div className="skill">JavaScript</div>
-            <div className="skill">React</div>
-            <div className="skill">SASS/SCSS</div>
-            <div className="skill">Redux</div>
+
             <div className="skill">Axios</div>
-            <div className="skill">REST API</div>
-            <div className="skill">Technical Drafting</div>
-            <div className="skill">AUTOCAD</div>
           </div>
           <div id="about">
             <h2>About</h2>
@@ -81,6 +74,21 @@ function App() {
           <div id="projects">
             <div id="title">Sample Projects</div>
             <div className="projects">
+              <div className="card d-flex flex-column justify-content-evenly">
+                <a
+                  href="https://online-shop-three-lac.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Image16} alt="proj-7" width="320px" height="100%" />
+                </a>
+                <div className="skills d-flex justify-content-center gap-2 flex-wrap">
+                  <div className="card mx-1 px-1">NextJS</div>
+                  <div className="card mx-1 px-1">Redux</div>
+                  <div className="card mx-1 px-1">React</div>
+                  <div className="card mx-1 px-1">Bootstrap</div>
+                </div>
+              </div>
               <div className="card d-flex flex-column justify-content-evenly">
                 <a
                   href="https://reytsard.github.io/weather-app"

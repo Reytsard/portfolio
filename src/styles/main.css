@@ -12013,6 +12013,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.skill-image {
+  width: auto;
+  height: 30px;
+}
+
 body {
   font-family: "quicksand";
   margin: 0;
