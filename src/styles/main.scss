@@ -27,6 +27,9 @@ header {
     margin-right: 50px;
   }
 }
+.imageContainer {
+  width: 250px;
+}
 .home {
   display: flex;
   justify-content: center;
@@ -46,9 +49,10 @@ header {
       justify-items: center;
       text-align: center;
     }
+
     .greetingsImg {
       height: 250px;
-      width: 100%;
+      width: 250px;
       display: grid;
       place-items: center;
     }

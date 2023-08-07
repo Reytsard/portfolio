@@ -16,6 +16,7 @@ import Image13 from "./images/SASS.png";
 import Image14 from "./images/next-js.png";
 import Image15 from "./images/Bootstrap.png";
 import Image16 from "./images/online-shop.png";
+import Image17 from "./images/brewery-locator.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHand } from "@fortawesome/free-solid-svg-icons";
 
@@ -39,7 +40,7 @@ function App() {
       <main>
         <div className="home">
           <div className="greetings d-flex flex-wrap gap-4 justify-content-center align-items-center">
-            <div>
+            <div className="imageContainer">
               <img
                 className="greetingsImg rounded-circle shadow-lg"
                 src={Image1}
@@ -103,6 +104,21 @@ function App() {
                 </a>
                 <div className="skills d-flex justify-content-center gap-2 flex-wrap">
                   <div className="card mx-1 px-1">NextJS</div>
+                  <div className="card mx-1 px-1">Redux</div>
+                  <div className="card mx-1 px-1">React</div>
+                  <div className="card mx-1 px-1">Bootstrap</div>
+                </div>
+              </div>
+              <div className="card d-flex flex-column justify-content-evenly">
+                <a
+                  href="https://reytsard.github.io/brewery-locator"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Image17} alt="proj-8" width="320px" height="100%" />
+                </a>
+                <div className="skills d-flex justify-content-center gap-2 flex-wrap">
+                  <div className="card mx-1 px-1">Google Map</div>
                   <div className="card mx-1 px-1">Redux</div>
                   <div className="card mx-1 px-1">React</div>
                   <div className="card mx-1 px-1">Bootstrap</div>
