@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.66476ff8.css",
-    "main.js": "/portfolio/static/js/main.25c3e94e.js",
+    "main.css": "/portfolio/static/css/main.7041143b.css",
+    "main.js": "/portfolio/static/js/main.08144a08.js",
     "static/media/proj1.png": "/portfolio/static/media/proj1.1252b6a66f69fac8e7b4.png",
     "static/media/proj6.png": "/portfolio/static/media/proj6.b981fd837c88a20d3976.png",
     "static/media/online-shop.png": "/portfolio/static/media/online-shop.5712574c0c97517874a3.png",
+    "static/media/brewery-locator.png": "/portfolio/static/media/brewery-locator.2a0b5f7e6f9f15097606.png",
     "static/media/Bootstrap.png": "/portfolio/static/media/Bootstrap.cb1aa7ebab86974f5bb0.png",
     "static/media/1.png": "/portfolio/static/media/1.cd957092e54588e5391e.png",
     "static/media/proj3.png": "/portfolio/static/media/proj3.8ec5e4d77b67358867f0.png",
@@ -18,11 +19,11 @@
     "static/media/proj4.png": "/portfolio/static/media/proj4.11ea4d4a3f40dc803cd4.png",
     "static/media/Redux.png": "/portfolio/static/media/Redux.b3b939c66aecf7d53967.png",
     "index.html": "/portfolio/index.html",
-    "main.66476ff8.css.map": "/portfolio/static/css/main.66476ff8.css.map",
-    "main.25c3e94e.js.map": "/portfolio/static/js/main.25c3e94e.js.map"
+    "main.7041143b.css.map": "/portfolio/static/css/main.7041143b.css.map",
+    "main.08144a08.js.map": "/portfolio/static/js/main.08144a08.js.map"
   },
   "entrypoints": [
-    "static/css/main.66476ff8.css",
-    "static/js/main.25c3e94e.js"
+    "static/css/main.7041143b.css",
+    "static/js/main.08144a08.js"
   ]
 }
