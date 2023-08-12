@@ -12025,6 +12025,7 @@ textarea.form-control-lg {
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -12132,12 +12133,12 @@ header .headerOptions {
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
-  gap: 10px;
+  row-gap: 30px;
   flex-wrap: wrap;
-  width: 98%;
 }
 #projects .projects .project {
-  width: 320px;
+  min-width: 300px;
+  max-width: 320px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1rem;
