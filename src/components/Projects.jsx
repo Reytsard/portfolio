@@ -78,7 +78,7 @@ export const Projects = () => (
         >
           <img src={Image3} alt="project-2" width="320px" />
         </a>
-        <div className="skills d-flex justify-content-center gap-2 flex-wrap">
+        <div className="skills d-flex justify-content-center align-items-center gap-2 flex-wrap">
           <div className="card mx-1 px-1">Javascript</div>
           <div className="card mx-1 px-1">HTML</div>
           <div className="card mx-1 px-1">CSS</div>

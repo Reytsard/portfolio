@@ -1,7 +1,9 @@
+import "../styles/main.css";
+
 export const Header = () => (
   <header>
     <div className="headerLogo">r.dm</div>
-    <div className="headerOptions d-flex gap-1">
+    <div className="headerOptions d-flex">
       <a href="#projects" className="text-primary text-decoration-none">
         Projects
       </a>

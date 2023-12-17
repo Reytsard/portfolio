@@ -10,6 +10,6 @@ export const ContactMe = () => (
         Rrey.dm@gmail.com
       </a>
     </div>
-    <div>Contact Number: +63 981 322 9906</div>
+    <div>Contact Number: +63 9262 754 026</div>
   </div>
 );
