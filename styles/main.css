@@ -1,1 +1,35 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  background-color: "#FCECC9";
+}
+
+#intro {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Josefin Sans", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#intro img {
+  margin: 40px 0;
+  display: grid;
+  place-items: center;
+  height: auto;
+  width: 240xpx;
+  border-radius: 100%;
+}
+
+@media only screen and (min-width: 426px) {
+  #intro {
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  #intro {
+    padding: 140px;
+  }
+}/*# sourceMappingURL=main.css.map */
