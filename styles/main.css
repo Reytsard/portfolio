@@ -4,7 +4,7 @@ body {
   width: 100vw;
   padding: 0;
   margin: 0;
-  background-color: "#FCECC9";
+  background-color: #fcecc9;
 }
 
 #intro {
@@ -19,7 +19,7 @@ body {
   display: grid;
   place-items: center;
   height: auto;
-  width: 240xpx;
+  width: clamp(200px, 70%, 80%);
   border-radius: 100%;
 }
 

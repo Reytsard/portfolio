@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
 $JosefinSans: "Josefin Sans";
-$DutchWhite: "#FCECC9";
-$CherryBlossom: "#FCB0B3";
-$ImperialRed: "#F93943";
-$CarolinaBlue: "#7EB2DD";
-$YLnMnBlue: "#445E93";
+$DutchWhite: #fcecc9;
+$CherryBlossom: #fcb0b3;
+$ImperialRed: #f93943;
+$CarolinaBlue: #7eb2dd;
+$YLnMnBlue: #445e93;
 
 body {
   height: 100vh;
   width: 100vw;
   padding: 0;
   margin: 0;
-  background-color: $DutchWhite;
+  background-color: #fcecc9;
 }
 #intro {
   padding: 10px 0;
@@ -26,7 +26,7 @@ body {
     display: grid;
     place-items: center;
     height: auto;
-    width: 240xpx;
+    width: clamp(200px, 70%, 80%);
     border-radius: 100%;
   }
 }
