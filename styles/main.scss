@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   font-family: "Josefin Sans", "Gill Sans", "Gill Sans MT", Calibri,
     "Trebuchet MS", sans-serif;
   img {
@@ -28,6 +29,29 @@ body {
     height: auto;
     width: clamp(200px, 70%, 80%);
     border-radius: 100%;
+  }
+  span:nth-child(1) {
+    display: none;
+  }
+  span:nth-child(2) {
+    font-size: 48px;
+    font-weight: 400;
+    display: grid;
+    place-items: center;
+  }
+  span:nth-child(3) {
+    font-size: 24px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 24px;
+  }
+  button {
+    padding: 18px 48px;
+    font-size: 18px;
+    border-radius: 40px;
+    background-color: $ImperialRed;
+    color: $DutchWhite;
+    border: none;
   }
 }
 @media only screen and (min-width: 426px) {
