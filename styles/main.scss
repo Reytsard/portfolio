@@ -80,14 +80,68 @@ body {
       background-size: cover;
     }
     .project:nth-child(odd) {
+      padding: 0;
       background-color: $CherryBlossom;
-      border-radius: 40px;
+      border-radius: 20px;
       border: 1px solid black;
+
+      .project-info {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+        .opaque-div {
+          box-shadow: 5px 0 30px rgb(0, 0, 0);
+          border-radius: 20px 0 0 20px;
+          height: 100%;
+          width: 40%;
+          background: $CherryBlossom;
+          display: grid;
+          place-items: center;
+          text-align: center;
+          h3 {
+            padding: 0;
+            margin: 0;
+          }
+        }
+      }
+      .project-info:hover {
+        .opaque-div {
+          opacity: 0.85;
+        }
+      }
     }
     .project:nth-child(even) {
+      padding: 0;
       background-color: $CarolinaBlue;
-      border-radius: 40px;
+      border-radius: 20px;
       border: 1px solid black;
+      .project-info {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 20px;
+        .opaque-div {
+          float: right;
+          box-shadow: -5px 0 30px rgb(0, 0, 0);
+          border-radius: 0 20px 20px 0;
+          height: 100%;
+          width: 40%;
+          background: $CarolinaBlue;
+          display: grid;
+          place-items: center;
+          text-align: center;
+          h3 {
+            padding: 0;
+            margin: 0;
+          }
+        }
+      }
+      .project-info:hover {
+        .opaque-div {
+          opacity: 0.85;
+        }
+      }
     }
   }
 }

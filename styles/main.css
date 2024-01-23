@@ -74,14 +74,63 @@ body {
   background-size: cover;
 }
 #projects .projects-wrapper .project:nth-child(odd) {
+  padding: 0;
   background-color: #fcb0b3;
-  border-radius: 40px;
+  border-radius: 20px;
   border: 1px solid black;
 }
+#projects .projects-wrapper .project:nth-child(odd) .project-info {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#projects .projects-wrapper .project:nth-child(odd) .project-info .opaque-div {
+  box-shadow: 5px 0 30px rgb(0, 0, 0);
+  border-radius: 20px 0 0 20px;
+  height: 100%;
+  width: 40%;
+  background: #fcb0b3;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+#projects .projects-wrapper .project:nth-child(odd) .project-info .opaque-div h3 {
+  padding: 0;
+  margin: 0;
+}
+#projects .projects-wrapper .project:nth-child(odd) .project-info:hover .opaque-div {
+  opacity: 0.85;
+}
 #projects .projects-wrapper .project:nth-child(even) {
+  padding: 0;
   background-color: #7eb2dd;
-  border-radius: 40px;
+  border-radius: 20px;
   border: 1px solid black;
+}
+#projects .projects-wrapper .project:nth-child(even) .project-info {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+#projects .projects-wrapper .project:nth-child(even) .project-info .opaque-div {
+  float: right;
+  box-shadow: -5px 0 30px rgb(0, 0, 0);
+  border-radius: 0 20px 20px 0;
+  height: 100%;
+  width: 40%;
+  background: #7eb2dd;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+#projects .projects-wrapper .project:nth-child(even) .project-info .opaque-div h3 {
+  padding: 0;
+  margin: 0;
+}
+#projects .projects-wrapper .project:nth-child(even) .project-info:hover .opaque-div {
+  opacity: 0.85;
 }
 
 @media only screen and (min-width: 426px) {
