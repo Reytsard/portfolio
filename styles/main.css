@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -8,14 +13,47 @@ body {
 }
 
 #intro {
+  margin: 0;
+  padding: 0;
+  width: 100%;
   padding: 10px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Josefin Sans", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+#intro #introWords {
+  padding: 20px 0 0 0;
+}
+#intro #introWords span:first-child {
+  display: none;
+}
+#intro #introWords #name {
+  padding: 0 15px;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#intro #introWords #desc {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  font-size: 1.4rem;
+}
+#intro #contactMe {
+  width: 250px;
+  height: 60px;
+  margin: 20px 0;
+  border-radius: 35px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #f93943;
+  font-family: "Josefin Sans", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffffff;
+}
 #intro img {
-  margin: 40px 0;
+  margin: 40px 0 0 0;
   display: grid;
   place-items: center;
   height: auto;
@@ -23,9 +61,23 @@ body {
   border-radius: 100%;
 }
 
+#projects h2 {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  font-family: "Josefin Sans", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #445e93;
+}
+
 @media only screen and (min-width: 426px) {
   #intro {
     padding: 20px;
+  }
+  #intro #introWords span:first-child {
+    display: flex;
   }
 }
 @media only screen and (min-width: 769px) {
