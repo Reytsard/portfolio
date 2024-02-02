@@ -115,7 +115,6 @@ body {
   padding: 0;
   background-color: #fcb0b3;
   border-radius: 20px;
-  border: 1px solid black;
   box-shadow: 0 15px 30px rgba(29, 29, 29, 0.3490196078);
 }
 #projects .projects-wrapper .project:nth-child(odd) .project-info {
@@ -123,6 +122,7 @@ body {
   width: 100%;
   border-radius: 20px;
   overflow: hidden;
+  opacity: 0.85;
 }
 #projects .projects-wrapper .project:nth-child(odd) .project-info .opaque-div {
   box-shadow: 5px 0 30px rgb(0, 0, 0);
@@ -138,14 +138,13 @@ body {
   padding: 0;
   margin: 0;
 }
-#projects .projects-wrapper .project:nth-child(odd) .project-info:hover .opaque-div {
-  opacity: 0.85;
+#projects .projects-wrapper .project:nth-child(odd) .project-info:hover {
+  opacity: 1;
 }
 #projects .projects-wrapper .project:nth-child(even) {
   padding: 0;
   background-color: #7eb2dd;
   border-radius: 20px;
-  border: 1px solid black;
   box-shadow: 0 15px 30px rgba(29, 29, 29, 0.3490196078);
 }
 #projects .projects-wrapper .project:nth-child(even) .project-info {
@@ -164,13 +163,14 @@ body {
   display: grid;
   place-items: center;
   text-align: center;
+  opacity: 0.85;
 }
 #projects .projects-wrapper .project:nth-child(even) .project-info .opaque-div h3 {
   padding: 0;
   margin: 0;
 }
 #projects .projects-wrapper .project:nth-child(even) .project-info:hover .opaque-div {
-  opacity: 0.85;
+  opacity: 1;
 }
 
 #projects h2 {
