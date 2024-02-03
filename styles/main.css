@@ -193,10 +193,13 @@ body {
   font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 #skills .skills-wrapper .skill-div-wrapper #Skills {
+  height: 100%;
   text-align: center;
   display: grid;
   place-items: center;
-  padding: 10px;
+}
+#skills .skills-wrapper .skill-div-wrapper #Skills div {
+  margin: 0 20px;
 }
 #skills .skills-wrapper .skill-div-wrapper #Skills div span {
   font-weight: bolder;
@@ -245,6 +248,9 @@ body {
   }
   #intro #introWords span:first-child {
     display: flex;
+  }
+  #projects .projects-wrapper .project {
+    height: 400px;
   }
 }
 @media only screen and (min-width: 769px) {

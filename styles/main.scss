@@ -201,10 +201,13 @@ body {
       font-size: 1.25rem;
       font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       #Skills {
+        height: 100%;
         text-align: center;
         display: grid;
         place-items: center;
-        padding: 10px;
+        div {
+          margin: 0 20px;
+        }
         div span {
           font-weight: bolder;
           font-size: 1.3rem;
@@ -255,6 +258,9 @@ body {
         display: flex;
       }
     }
+  }
+  #projects .projects-wrapper .project {
+    height: 400px;
   }
 }
 
