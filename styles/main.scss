@@ -205,9 +205,10 @@ body {
         display: grid;
         place-items: center;
         padding: 10px;
-      }
-      span {
-        font-weight: 600;
+        div span {
+          font-weight: bolder;
+          font-size: 1.3rem;
+        }
       }
     }
   }
