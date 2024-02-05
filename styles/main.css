@@ -227,6 +227,7 @@ body {
 #About .Education p {
   display: grid;
   place-items: center;
+  text-align: center;
 }
 
 #CTA {
