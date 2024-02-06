@@ -199,7 +199,6 @@ body {
   }
   .Skills {
     background: #ffffffa9;
-    height: 100%;
     text-align: center;
     place-items: center;
     padding: 10px 5px;
@@ -227,7 +226,7 @@ body {
     align-items: center;
   }
   .Education {
-    margin: 40px 0;
+    margin: 40px 0 0 0;
     p {
       display: grid;
       place-items: center;
@@ -255,6 +254,31 @@ body {
     height: clamp(32px, 42px, 56px);
     width: auto;
     aspect-ratio: 1/1;
+  }
+}
+#certifications {
+  display: grid;
+  place-items: center;
+  font-family: $JosefinSans, "Courier New", Courier, monospace;
+  margin: 20px 0;
+
+  h1 {
+    font-family: 36px;
+    margin: 5px;
+  }
+  .certificates-wrapper {
+    display: flex;
+    flex: 1 0 320px;
+    flex-direction: column;
+    gap: 20px;
+    .certificate {
+      display: grid;
+      place-items: center;
+      text-decoration: underline;
+      h3 {
+        color: black;
+      }
+    }
   }
 }
 @media only screen and (min-width: 426px) {
