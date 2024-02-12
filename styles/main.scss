@@ -328,10 +328,10 @@ body {
       margin-bottom: 30px;
     }
     .projects-wrapper {
-      padding: 0 200px;
+      padding: 0 150px;
       align-items: flex-start;
       .project {
-        height: 700px;
+        height: 400px;
         width: 100%;
         .project-info {
           border-radius: 60px;
@@ -414,6 +414,16 @@ body {
         grid-column: 3/5;
         display: grid;
         place-items: center;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #projects {
+    .projects-wrapper {
+      padding: 0 200px;
+      .project {
+        height: 700px;
       }
     }
   }
