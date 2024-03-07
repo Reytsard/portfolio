@@ -325,7 +325,7 @@ body {
     align-items: flex-start;
   }
   #projects .projects-wrapper .project {
-    height: 400px;
+    height: 200px;
     width: 100%;
   }
   #projects .projects-wrapper .project .project-info {
@@ -415,6 +415,6 @@ body {
     padding: 0 200px;
   }
   #projects .projects-wrapper .project {
-    height: 700px;
+    height: 400px;
   }
 }/*# sourceMappingURL=main.css.map */
