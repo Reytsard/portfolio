@@ -417,4 +417,30 @@ body {
   #projects .projects-wrapper .project {
     height: 400px;
   }
+}
+#intro {
+  animation: appear 1s linear;
+}
+
+.project,
+#more-projects,
+#skills,
+#About,
+#certifications,
+#CTA,
+#socMed {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
 }/*# sourceMappingURL=main.css.map */
